@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "DSAN Scholarship Mini Project"
+  navbar:
+    # background: "#333333"
+    # foreground: "#ffffff"
+    # search: true
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Technical Appendix
+        href: tech_appendix.qmd
+      - text: All Sources
+        href: references.qmd
+      - text: AI Usage Log
+        href: ai_log.qmd
+  sidebar: false
+
+format:
+  closeread-html:
+    toc: false
+    number-sections: false
+    smooth-scroll: true
+    theme:
+      - cosmo
+      - css/custom.scss
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+    bibliography: refs.bib 
+
+filters:
+  - closeread

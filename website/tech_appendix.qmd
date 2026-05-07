@@ -1,0 +1,20 @@
+---
+title: "Technical Appendix"
+---
+
+# Technical Appendix
+
+
+::: {.prose}
+
+## Overview
+
+## Data Collection
+
+## Data Cleaning
+
+## Visualizations
+
+## Website
+
+:::

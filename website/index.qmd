@@ -1,0 +1,52 @@
+---
+title: ""
+format: 
+    closeread-html:
+        html:
+            page-layout: full
+            self-contained: true
+        cr-section:
+            layout: "overlay-center"
+bibliography: refs.bib
+suppress-bibliography: true
+---
+
+```{=html}
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<div class="hero">
+  <span class="kicker">Economic Trends Analysis · 1960-Present</span>
+  <h1>Title</h1>
+  <p class="dek">Have groceries gotten more or less affordable? Just for some groceries or just for some Americans?</p>
+  <p class="byline"> 
+    <a href="references.html">All Sources</a> ·
+    <a href="tech_appendix.html">Technical Appendix</a> ·
+    <a href="ai_log.html">AI Usage Log</a>
+  </p>
+</div>
+```
+
+::: {.chart-wrap}
+[image]{.caption}
+:::
+
+::: {.prose}
+Text
+:::
+
+::: {.chart-wrap}
+<iframe src="charts/percent_food_expenditure.html" width=1000 height=600 style="border:none"></iframe>
+[Caption here.]{.caption}
+:::
+
+::: {.chart-wrap}
+<iframe src="charts/food_vs_overall_inflation.html" width=1000 height=600 style="border:none"></iframe>
+[Indexed to Jan 1960=100.]{.caption}
+:::
+
+
+::: {.chart-wrap}
+<iframe src="charts/home_vs_away.html" width=1000 height=600 style="border:none"></iframe>
+[Indexed to Jan 1960=100.]{.caption}
+:::
