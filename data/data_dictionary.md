@@ -23,7 +23,7 @@ CUUR0000SAF113.csv
 - units: Index 1982-1984=100
 - Not Seasonally Adjusted
 
-CUSR0000SAF114.csv
+CUUR0000SAF114.csv
 - Consumer Price Index for All Urban Consumers: Nonalcoholic Beverages and Beverage Materials in U.S. City Average
 - Monthly
 - 1947-2026

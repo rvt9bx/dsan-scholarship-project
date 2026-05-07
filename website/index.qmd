@@ -50,3 +50,8 @@ Text
 <iframe src="charts/home_vs_away.html" width=1000 height=600 style="border:none"></iframe>
 [Indexed to Jan 1960=100.]{.caption}
 :::
+
+::: {.chart-wrap}
+<iframe src="charts/grocery_categories.html" width=1000 height=600 style="border:none"></iframe>
+[Indexed to Jan 1967=100.]{.caption}
+:::
