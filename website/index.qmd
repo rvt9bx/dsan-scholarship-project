@@ -55,3 +55,8 @@ Text
 <iframe src="charts/grocery_categories.html" width=1000 height=600 style="border:none"></iframe>
 [Indexed to Jan 1967=100.]{.caption}
 :::
+
+::: {.chart-wrap}
+<iframe src="charts/spending_by_outlet.html" width=1000 height=600 style="border:none"></iframe>
+[USDA constant dollars.]{.caption}
+:::

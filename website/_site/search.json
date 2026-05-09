@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "ai_log.html",
+    "href": "ai_log.html",
+    "title": "AI Usage Log",
+    "section": "",
+    "text": "AI Usage Log\n\nMost AI assistance in this project was provided by Claude Sonnet 4.6 (Anthropic). Additional small code error debugging was done with ChatGPT GPT-5.3-mini model (OpenAI).\n\n\n\n#\nTask\n\n\n\n\n1\nProject idea refinement and brainstorming\n\n\n2\nQuarto style customization\n\n\n3\nCode error debugging"
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
@@ -11,13 +18,6 @@
     "href": "index.html",
     "title": "Title",
     "section": "",
-    "text": "Economic Trends Analysis · 1960-Present\n  Title\n  Have groceries gotten more or less affordable? Just for some groceries or just for some Americans?\n   \n    All Sources ·\n    Technical Appendix ·\n    AI Usage Log\n  \n\n\nimage\n\n\nText\n\n\n\n\nCaption here.\n\n\n\n\nIndexed to Jan 1960=100.\n\n\n\n\nIndexed to Jan 1960=100."
-  },
-  {
-    "objectID": "ai_log.html",
-    "href": "ai_log.html",
-    "title": "AI Usage Log",
-    "section": "",
-    "text": "AI Usage Log\n\nMost AI assistance in this project was provided by Claude Sonnet 4.6 (Anthropic). Additional small code error debugging was done with ChatGPT GPT-5.3-mini model (OpenAI).\n\n\n\n#\nTask\n\n\n\n\n1\nProject idea refinement and brainstorming\n\n\n2\nQuarto style customization\n\n\n3\nCode error debugging"
+    "text": "Economic Trends Analysis · 1960-Present\n  Title\n  Have groceries gotten more or less affordable? Just for some groceries or just for some Americans?\n   \n    All Sources ·\n    Technical Appendix ·\n    AI Usage Log\n  \n\n\nimage\n\n\nText\n\n\n\n\nCaption here.\n\n\n\n\nIndexed to Jan 1960=100.\n\n\n\n\nIndexed to Jan 1960=100.\n\n\n\n\nIndexed to Jan 1967=100.\n\n\n\n\nUSDA constant dollars."
   }
 ]
