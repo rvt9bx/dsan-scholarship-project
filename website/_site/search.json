@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Title",
-    "section": "",
-    "text": "Economic Trends Analysis · 1960-Present\n  Title\n  Has food gotten more or less affordable? How does this affect different types of food and different types of Americans?\n   \n    All Sources ·\n    Technical Appendix ·\n    AI Usage Log\n  \n\n\n Source: National Council on Aging (ncoa.org)\n\n\nText\n\n\n\n\nCaption here.\n\n\n\n\nIndexed to Jan 1960=100.\n\n\n\n\nIndexed to Jan 1960=100.\n\n\n\n\nIndexed to Jan 1967=100.\n\n\n\n\nUSDA constant dollars.\n\n\n\n\nFood at home / groceries specifically.\n\n\n\n\nFood at home / groceries specifically.\n\n\n\n\nAll food."
-  },
-  {
     "objectID": "ai_log.html",
     "href": "ai_log.html",
     "title": "AI Usage Log",
@@ -19,5 +12,12 @@
     "title": "References",
     "section": "",
     "text": "References\n\nCloseRead.dev. 2024. “Close Read.” 2024. https://closeread.dev/."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Title",
+    "section": "",
+    "text": "Economic Trends Analysis · 1960-Present\n  Title\n  Has food gotten more or less affordable? How does this affect different types of food and different types of Americans?\n   \n    All Sources ·\n    Technical Appendix ·\n    AI Usage Log\n  \n\n\n Source: National Council on Aging (ncoa.org)\n\n\nText\n\n\n\n\nCaption here.\n\n\n\n\nIndexed to Jan 1960=100.\n\n\n\n\nIndexed to Jan 1960=100.\n\n\n\n\nIndexed to Jan 1967=100.\n\n\n\n\nUSDA constant dollars.\n\n\n\n\nFood at home / groceries specifically.\n\n\n\n\nFood at home / groceries specifically.\n\n\n\n\nAll food."
   }
 ]
