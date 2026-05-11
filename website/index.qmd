@@ -28,7 +28,8 @@ suppress-bibliography: true
 ```
 
 ::: {.chart-wrap}
-[image]{.caption}
+![](img/intro.png)
+[Source: National Council on Aging (ncoa.org)]{.caption}
 :::
 
 ::: {.prose}
