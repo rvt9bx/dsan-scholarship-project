@@ -26,7 +26,7 @@ main.content { padding: 0; margin: 0; }
 /* ─── hero ─── */
 .hero {
   padding: 8rem 2rem 5rem;
-  // max-width: 950px;
+  max-width: 1050px;
   margin: 0 auto;
 }
 
@@ -54,7 +54,7 @@ main.content { padding: 0; margin: 0; }
   font-size: 1.25rem;
   line-height: 1.65;
   color: #c2c2c2;
-  // max-width: 950px;
+  max-width: 1050px;
   margin-bottom: 2rem;
 }
 
@@ -65,11 +65,13 @@ main.content { padding: 0; margin: 0; }
   border-top: 1px solid #c2c2c2;
   padding-top: 1rem;
   // max-width: 950px;
+  max-width: 1050px;
 }
 
 /* ─── prose column ─── */
 .prose {
   // max-width: 950px;
+  max-width: 1050px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -90,6 +92,7 @@ main.content { padding: 0; margin: 0; }
 /* ─── static viz captions ─── */
 .chart-wrap {
   // max-width: 950px;
+  max-width: 1050px;
   margin: 0rem auto;
   padding: 0 0rem;
 }

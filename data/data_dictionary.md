@@ -159,9 +159,6 @@ state_sales_per_capita_no_taxes_tips.csv
 - unit: U.S. Dollars 
 - Not Seasonally Adjusted 
 
-
-
-
 ## Census
 
 saipe_state_median_income.csv
@@ -170,3 +167,7 @@ saipe_state_median_income.csv
 - 1997-2024
 - units? 
 - inflation adjusted? 
+
+## States
+
+Per capita personal income 

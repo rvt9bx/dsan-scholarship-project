@@ -18,7 +18,7 @@ suppress-bibliography: true
 <div class="hero">
   <span class="kicker">Economic Trends Analysis · 1960-Present</span>
   <h1>Title</h1>
-  <p class="dek">Have groceries gotten more or less affordable? Just for some groceries or just for some Americans?</p>
+  <p class="dek">Has food gotten more or less affordable? How does this affect different types of food and different types of Americans?</p>
   <p class="byline"> 
     <a href="references.html">All Sources</a> ·
     <a href="tech_appendix.html">Technical Appendix</a> ·
@@ -59,4 +59,19 @@ Text
 ::: {.chart-wrap}
 <iframe src="charts/spending_by_outlet.html" width=1000 height=600 style="border:none"></iframe>
 [USDA constant dollars.]{.caption}
+:::
+
+::: {.chart-wrap}
+<iframe src="charts/line_grocery_income.html" width=1000 height=600 style="border:none"></iframe>
+[Food at home / groceries specifically.]{.caption}
+:::
+
+::: {.chart-wrap}
+<iframe src="charts/bar_grocery_income.html" width=1000 height=600 style="border:none"></iframe>
+[Food at home / groceries specifically.]{.caption}
+:::
+
+::: {.chart-wrap}
+<iframe src="charts/map_food_sales_income.html" width=1000 height=600 style="border:none"></iframe>
+[All food.]{.caption}
 :::
