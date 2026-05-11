@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Price of Eating",
+    "section": "",
+    "text": "Economic Trends Analysis · 1960-Present\n  \n  Has food gotten more or less affordable? How does this affect different types of food and different types of Americans?\n   \n    All Sources ·\n    Technical Appendix ·\n    AI Usage Log"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "The Price of Eating",
+    "section": "Introduction",
+    "text": "Introduction\nEveryone has to eat.\nAlong with water, shelter, and clothing, food is one of the most basic needs of every human being. According to the USDA Economic Research Service, there were over 115,000 food stores in the U.S. in 2019 [https://www.ers.usda.gov/topics/food-markets-prices/retailing-wholesaling/retail-trends]. This number includes grocery stores, convienience stores, and specialty food stores, but doesn’t include the over 618,000 restaurants as counted by the U.S. Census County Business Patterns program in 2023 [https://data.census.gov/table/CBP2023.CB2300CBP?g=010XX00US&codeset=naics~72251].\nIf you look at the general trends of food expenditure in the U.S. since the 1960s, it is clear that Americans are spending less on food, both on groceries (or food at home), and at restaurants (or food away from home). The chart below shows how much the U.S. consumers are spending on food out of their total expenditure on all items, calculated as a percentage of annual rates per month from 1960 to 2026."
+  },
+  {
+    "objectID": "index.html#not-all-food-is-created-equal",
+    "href": "index.html#not-all-food-is-created-equal",
+    "title": "The Price of Eating",
+    "section": "Not All Food Is Created Equal",
+    "text": "Not All Food Is Created Equal\nWhile everyone has to eat, many Americans cannot afford to. In fact, 47.9 million people lived in food-insecure households in 2024, meaning that they lived in households that unable or uncertain about having enough food for all their members at times during the year, due to insufficient money or other resources [https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics]."
+  },
+  {
+    "objectID": "index.html#affordable-for-who",
+    "href": "index.html#affordable-for-who",
+    "title": "The Price of Eating",
+    "section": "Affordable for Who?",
+    "text": "Affordable for Who?"
+  },
+  {
+    "objectID": "index.html#conclusions-and-looking-forward",
+    "href": "index.html#conclusions-and-looking-forward",
+    "title": "The Price of Eating",
+    "section": "Conclusions and Looking Forward",
+    "text": "Conclusions and Looking Forward\nThere are assistance programs for food insecurity, such as the Supplemental Nutrition Assistance Program (SNAP), among others. In 2024, 41.5 million people on average per month received SNAP benefits [https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap]. UDSA studies have found that receiving SNAP does improve household food security and alleviates poverty, the amount of purchasing power that the benefits give households"
+  },
+  {
     "objectID": "ai_log.html",
     "href": "ai_log.html",
     "title": "AI Usage Log",
@@ -12,12 +47,5 @@
     "title": "References",
     "section": "",
     "text": "References\n\nCloseRead.dev. 2024. “Close Read.” 2024. https://closeread.dev/."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Title",
-    "section": "",
-    "text": "Economic Trends Analysis · 1960-Present\n  Title\n  Has food gotten more or less affordable? How does this affect different types of food and different types of Americans?\n   \n    All Sources ·\n    Technical Appendix ·\n    AI Usage Log\n  \n\n\n Source: National Council on Aging (ncoa.org)\n\n\nText\n\n\n\n\nCaption here.\n\n\n\n\nIndexed to Jan 1960=100.\n\n\n\n\nIndexed to Jan 1960=100.\n\n\n\n\nIndexed to Jan 1967=100.\n\n\n\n\nUSDA constant dollars.\n\n\n\n\nFood at home / groceries specifically.\n\n\n\n\nFood at home / groceries specifically.\n\n\n\n\nAll food."
   }
 ]

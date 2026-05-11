@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3a4a24fe79f452dd97450bf8a5154b32.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ce7efec11e2fdca41296618bbc945711.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/intersection-observer-polyfill-1.0.0/intersection-observer.js"></script>
 <script src="site_libs/quarto-contrib/scrollama-3.2.0/scrollama.min.js"></script>
 <script src="site_libs/quarto-contrib/closeread-0.1.0/closeread.js"></script>
@@ -137,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 ══════════════════════════════════════════ -->
 <div class="hero">
   <span class="kicker">Economic Trends Analysis · 1960-Present</span>
-  <h1>Title</h1>
+  <h1>The Price of Eating</h1>
   <p class="dek">Has food gotten more or less affordable? How does this affect different types of food and different types of Americans?</p>
   <p class="byline"> 
     <a href="references.html">All Sources</a> ·
@@ -148,49 +149,74 @@ ul.task-list li input[type="checkbox"] {
 <div class="chart-wrap">
 <p><img src="img/intro.png" class="img-fluid"> <span class="caption">Source: National Council on Aging (ncoa.org)</span></p>
 </div>
+<p>
+</p>
+<section id="introduction" class="level2 prose">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Everyone has to eat.</p>
+<p>Along with water, shelter, and clothing, food is one of the most basic needs of every human being. According to the USDA Economic Research Service, there were over 115,000 food stores in the U.S. in 2019 [https://www.ers.usda.gov/topics/food-markets-prices/retailing-wholesaling/retail-trends]. This number includes grocery stores, convienience stores, and specialty food stores, but doesn’t include the over 618,000 restaurants as counted by the U.S. Census County Business Patterns program in 2023 [https://data.census.gov/table/CBP2023.CB2300CBP?g=010XX00US&amp;codeset=naics~72251].</p>
+<p>If you look at the general trends of food expenditure in the U.S. since the 1960s, it is clear that Americans are spending less on food, both on groceries (or food at home), and at restaurants (or food away from home). The chart below shows how much the U.S. consumers are spending on food out of their total expenditure on all items, calculated as a percentage of annual rates per month from 1960 to 2026.</p>
+</section>
+<div class="chart-wrap">
+<iframe src="charts/percent_food_expenditure.html" width="1010" height="620" style="border:none">
+</iframe>
+<p><span class="caption">Source: FRED DFXARC1M027SBEA and PCE Series, no inflation adjustment necessary since this is a percentage of nominal dollars for each year.</span></p>
+</div>
 <div class="prose">
-<p>Text</p>
+<p>Sixty-five years ago, Americans spent almost 20% of their total personal expenditures on food, while that number is down to about 7% in March 2026.</p>
+<p>When examining the cost of food over the past 6 decades, the chart below shows the Consumer Price Indexes for all food (groceries and restaurants) as compared to all items, relative to January 1960. This data shows that food prices tracked below general inflation for most of the 1960s, as well as from 1980 up until about 2010. At this time point, food prices begin to increase faster than general inflation, with a sharp surge in 2021–2022.</p>
 </div>
 <div class="chart-wrap">
-<iframe src="charts/percent_food_expenditure.html" width="1010" height="700" style="border:none">
+<iframe src="charts/food_vs_overall_inflation.html" width="1010" height="620" style="border:none">
 </iframe>
-<p><span class="caption">Caption here.</span></p>
+<p><span class="caption">Source: FRED CPIUFDSL and CPIAUCSL Series, Consumer Price Index reindexed to Jan 1960=100.</span></p>
 </div>
+<div class="prose">
+<p>This shows us that in the long run, food is putting less of a dent in American wallets, but in recent years, food is becoming more expensive faster than everything else.</p>
+<p>What else are these numbers hiding? As aggregate metrics based on all of the U.S. or all types of eating, general spending or inflation metrics can hide the real story of the price of food in the U.S.</p>
+<p>Using data from the Federal Reserve Bank of St.&nbsp;Louis (FRED) and the USDA Economic Research Service Food Expenditure Series, this project aims to investigate food affordability and spending in the U.S. over time. We illustrate the difference between categories of food and groceries to see if certain types of food are becoming cheaper or more expensive, as well as compare across income percentiles to investigate how these changes can affect people of different circumstances. Finally, we analyze food burden per state over time to further examine the inequality of cost-of-eating across the U.S.</p>
+</div>
+<section id="not-all-food-is-created-equal" class="level2 prose">
+<h2 class="anchored" data-anchor-id="not-all-food-is-created-equal">Not All Food Is Created Equal</h2>
+<p>While everyone has to eat, many Americans cannot afford to. In fact, 47.9 million people lived in food-insecure households in 2024, meaning that they lived in households that unable or uncertain about having enough food for all their members at times during the year, due to insufficient money or other resources [https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics].</p>
+</section>
 <div class="chart-wrap">
-<iframe src="charts/food_vs_overall_inflation.html" width="1010" height="700" style="border:none">
+<iframe src="charts/home_vs_away.html" width="1010" height="620" style="border:none">
 </iframe>
 <p><span class="caption">Indexed to Jan 1960=100.</span></p>
 </div>
 <div class="chart-wrap">
-<iframe src="charts/home_vs_away.html" width="1010" height="700" style="border:none">
-</iframe>
-<p><span class="caption">Indexed to Jan 1960=100.</span></p>
-</div>
-<div class="chart-wrap">
-<iframe src="charts/grocery_categories.html" width="1010" height="700" style="border:none">
+<iframe src="charts/grocery_categories.html" width="1010" height="620" style="border:none">
 </iframe>
 <p><span class="caption">Indexed to Jan 1967=100.</span></p>
 </div>
 <div class="chart-wrap">
-<iframe src="charts/spending_by_outlet.html" width="1010" height="700" style="border:none">
+<iframe src="charts/spending_by_outlet.html" width="1010" height="620" style="border:none">
 </iframe>
 <p><span class="caption">USDA constant dollars.</span></p>
 </div>
+<section id="affordable-for-who" class="level2 prose">
+<h2 class="anchored" data-anchor-id="affordable-for-who">Affordable for Who?</h2>
+</section>
 <div class="chart-wrap">
-<iframe src="charts/line_grocery_income.html" width="1010" height="700" style="border:none">
+<iframe src="charts/line_grocery_income.html" width="1010" height="620" style="border:none">
 </iframe>
 <p><span class="caption">Food at home / groceries specifically.</span></p>
 </div>
 <div class="chart-wrap">
-<iframe src="charts/bar_grocery_income.html" width="1010" height="700" style="border:none">
+<iframe src="charts/bar_grocery_income.html" width="1010" height="620" style="border:none">
 </iframe>
 <p><span class="caption">Food at home / groceries specifically.</span></p>
 </div>
 <div class="chart-wrap">
-<iframe src="charts/map_food_sales_income.html" width="1010" height="700" style="border:none">
+<iframe src="charts/map_food_sales_income.html" width="1010" height="620" style="border:none">
 </iframe>
 <p><span class="caption">All food.</span></p>
 </div>
+<section id="conclusions-and-looking-forward" class="level2 prose">
+<h2 class="anchored" data-anchor-id="conclusions-and-looking-forward">Conclusions and Looking Forward</h2>
+<p>There are assistance programs for food insecurity, such as the Supplemental Nutrition Assistance Program (SNAP), among others. In 2024, 41.5 million people on average per month received SNAP benefits [https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap]. UDSA studies have found that receiving SNAP does improve household food security and alleviates poverty, the amount of purchasing power that the benefits give households</p>
+</section>
 
 
 
@@ -246,13 +272,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
