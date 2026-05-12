@@ -4,16 +4,28 @@ title: "Technical Appendix"
 
 # Technical Appendix
 
-
 ::: {.prose}
 
 ## Overview
 
+This project analyzes economic data from 1960 to 2026 in an attempt to understand food pricing and spending trends and how that relates to the overall cost of eating. The project involved downloading relevant data, cleaning and wrangling the data, and developing visualizations.
+
+All code is written in Python. Visualizations are produced using Plotly and embedded within a custom styled Quarto website. 
+
+Link to GitHub Repo: [https://github.com/rvt9bx/dsan-scholarship-project](https://github.com/rvt9bx/dsan-scholarship-project).
+
 ## Data Collection
+
+Data was downloaded mainly from the Federal Reserve Board of St. Louis 
 
 ## Data Cleaning
 
+Data cleaning included selecting the given dates of data to focus on, selecting and renaming columns for ease of use, converting string numeric values into floats, converting raw values to percentages, and pivoting the data into long format (as opposed to wide) when necessary for visualization. All cleaning was done in the `viz.ipynb` file 
+
 ## Visualizations
+
+Visualizations were coded using Plotly Graph Objects, as well as Plotly Express for the animated charts. 
+The code for them can be found in `viz.ipynb` file. They are exported as html files for interactivity and then embedded into the website page. 
 
 ## Website
 

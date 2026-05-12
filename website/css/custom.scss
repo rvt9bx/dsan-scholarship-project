@@ -155,50 +155,18 @@ main.content { padding: 0; margin: 0; }
   height: 85vh;
 }
 
-// /* ─── conclusion ─── */
-// #conclusion {
-//   background: #320b8d48;
-//   color: #1a1a1a;
-//   padding: 6rem 2rem;
-//   margin-top: 4rem;
-// }
+/* ─── back to top button ─── */
+.back-btn {
+  display: inline-block;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  font-family: 'Source Sans 3', sans-serif;
+  padding: 0;
+  margin-top: 1rem;
+  color: #67a384
+}
 
-// #conclusion .conclusion-inner {
-//   max-width: 860px;
-//   margin: 0 auto;
-// }
-
-// #conclusion h2 {
-//   font-family: 'Playfair Display', serif;
-//   font-size: 2.5rem;
-//   color: #1a1a1a;
-//   margin-bottom: 3rem;
-//   border-bottom: 1px solid #333;
-//   text-decoration: none !important;
-// }
-
-// #conclusion .insight-grid {
-//   display: grid;
-//   grid-template-columns: repeat(3, 1fr);
-//   gap: 2rem;
-//   margin-bottom: 3rem;
-// }
-
-// #conclusion .insight-card {
-//   padding-top: 1.25rem;
-// }
-
-// #conclusion .insight-stat {
-//   font-family: 'Playfair Display', serif;
-//   font-size: 3rem;
-//   font-weight: 900;
-//   color: #1a1a1a;
-//   line-height: 1;
-//   margin-bottom: 0.5rem;
-// }
-
-// #conclusion .insight-label {
-//   font-size: 0.85rem;
-//   color: #333;
-//   line-height: 1.5;
-// }
+.back-btn:hover { text-decoration: underline; }

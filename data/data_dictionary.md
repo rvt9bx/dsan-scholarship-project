@@ -165,9 +165,12 @@ saipe_state_median_income.csv
 - Median Household Income per State
 - Annual
 - 1997-2024
-- units? 
-- inflation adjusted? 
 
 ## States
 
-Per capita personal income 
+**PCPI.csv 
+- Per Capita Personal Income by State, as given by the state abbreviation at the beginning of the file name. 
+- Annual 
+- Variable Starting Year Based on State - 2025
+- unit: U.S. Dollars 
+- Not Seasonally Adjusted 
