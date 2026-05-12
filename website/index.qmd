@@ -29,13 +29,12 @@ suppress-bibliography: true
   </p>
 </div>
 ```
-
+::: {.prose}
 ::: {.chart-wrap}
-![](img/intro.png)
-[Source: National Council on Aging (ncoa.org)]{.caption}
+![](img/grocery_bag.jpg)
+[Source: University of British Columbia (food.ubc.ca)]{.caption}
 :::
 
-::: {.prose}
 ## Introduction
 
 Everyone has to eat. 
@@ -44,123 +43,104 @@ Along with water, shelter, and clothing, food is one of the most basic needs of 
 According to the USDA Economic Research Service, there were over 115,000 food stores in the U.S. in 2019 [https://www.ers.usda.gov/topics/food-markets-prices/retailing-wholesaling/retail-trends]. This number includes grocery stores, convienience stores, and specialty food stores, but doesn't include the over 618,000 restaurants as counted by the U.S. Census County Business Patterns program in 2023 [https://data.census.gov/table/CBP2023.CB2300CBP?g=010XX00US&codeset=naics~72251]. 
 
 If you look at the general trends of food expenditure in the U.S. since the 1960s, it is clear that Americans are spending less on food, both on groceries (or food at home), and at restaurants (or food away from home). The chart below shows how much the U.S. consumers are spending on food out of their total expenditure on all items, calculated as a percentage of annual rates per month from 1960 to 2026. 
-:::
 
 ::: {.chart-wrap}
 <iframe src="charts/percent_food_expenditure.html" width=1010 height=620 style="border:none"></iframe>
 [Source: FRED DFXARC1M027SBEA and PCE Series, no inflation adjustment necessary since this is a percentage of nominal dollars for each year.]{.caption}
 :::
 
-::: {.prose}
 Sixty-five years ago, Americans spent almost 20% of their total personal expenditures on food, while that number is down to about 7% in March 2026. 
 
 When examining the cost of food over the past 6 decades, the chart below shows the Consumer Price Indexes for all food (groceries and restaurants) as compared to all items, relative to January 1960. This data shows that food prices tracked below general inflation for most of the 1960s, as well as from 1980 up until about 2010. At this time point, food prices begin to increase faster than general inflation, with a sharp surge in 2021–2022. 
-:::
 
 ::: {.chart-wrap}
 <iframe src="charts/food_vs_overall_inflation.html" width=1010 height=620 style="border:none"></iframe>
 [Source: FRED CPIUFDSL and CPIAUCSL Series, Consumer Price Index reindexed to Jan 1960=100.]{.caption}
 :::
 
-::: {.prose}
 This shows us that in the long run, food is putting less of a dent in American wallets, but in recent years, food is becoming more expensive faster than everything else. 
 
 What else are these numbers hiding? As aggregate metrics based on all of the U.S. or all types of eating, general spending or inflation metrics can hide the real story of the price of food in the U.S. 
 
 Using data from the Federal Reserve Bank of St. Louis (FRED) and the USDA Economic Research Service Food Expenditure Series, this project aims to investigate food affordability and spending in the U.S. over time. We illustrate the difference between categories of food and groceries to see if certain types of food are becoming cheaper or more expensive, as well as compare across income percentiles to investigate how these changes can affect people of different circumstances. Finally, we analyze food burden per state over time to further examine the inequality of cost-of-eating across the U.S.
-:::
 
 ::: {.chart-wrap}
-![](img/intro.png)
-[Source: National Council on Aging (ncoa.org)]{.caption}
+![](img/receipt.jpg)
+[Source: Adobe Stock Images]{.caption}
 :::
 
-::: {.prose}
 ## Not All Food Is Created Equal 
 
 The story of food affordability is really the story of _specific_ types of foods. This section we dive into the price and spending trends of different sectors of the food industry: food at home, which includes buying groceries at grocery stores, supermarkets, larger warehouse clubs like Costco or Sam's Club, and other stores like specialty markets, and food away from home, which includes buying premade food from restaurants, both sit-down or 'full-service' restaurants and fast-food or 'limited' restaurants. 
 
 While the total food price index has approximately matched the overall price index until recently, the separate groceries price index versus eating out index tell a different story. The chart below shows that since the 1980s, eating out at any type of restaurant has become more expensive faster than buying groceries and cooking at home. 
-:::
+
 
 ::: {.chart-wrap}
 <iframe src="charts/home_vs_away.html" width=1010 height=620 style="border:none"></iframe>
 [Source: FRED CUUR0000SAF11 and CUUR0000SEFV Series, Consumer Price Index reindexed to Jan 1960=100.]{.caption}
 :::
 
-::: {.prose}
+
 Despite eating out consistently increasing in price more than eating at home, when breaking down the food at home and food away from home categories further into sales by outlet, we can see that American food spending has changed in outlet over time. Grocery stores started with the highest share of total monthly food sales with over 40% in 1997, when this data became available. While grocery stores still maintains a slight plurality with about 25% of food sales at the end of 2024, both limited and full-service restuarants as well as warehouse club stores experienced a significant increase in their shares of food sales. In fact, based on the USDA ERS Food Expenditure Survey, in January 1997, 57.64% of food sales went to groceries and food at home, and 42.36% went to eating out (food away from home). While the food away from home share dropped to an extreme low during the pandemic (36.92% in April 2020), by December 2024 it had risen back up to 54.24%, surpassing grocery spending at only 45.76%. This means that even though eating out is getting less affordable, as shown by the price indexes above, more and more Americans are participating in it. The slider at the bottom of the chart below allows exploration of the share of food sales by outlet over time. 
-:::
 
 ::: {.chart-wrap}
 <iframe src="charts/spending_by_outlet.html" width=1010 height=620 style="border:none"></iframe>
 [Source: USDA, ERS Food Expenditure Survey, total monthly sales by outlet as a percent of total monthly food sales in millions of nominal U.S. dollars.]{.caption}
 ::: 
 
-::: {.prose}
-When decomposing grocery prices further into categories, the ones that are cheaper may not be the healthiest. The chart below shows how the prices of different grocery items have changed relative to those in 1967. While all items became more expensive at about the same rate until 1975, nonalcoholic beverage items became significantly more expensive from then until about the 1990s. Since then, it is clear to see that fruits and vegetables are the most expensive food item relative to other categories' prices. Since this data is not seasonally adjusted, the fruits and vegetables series shows the most cyclic variation, which is expected due to the different growing seasons of fresh food. Interestingly, the prices for meat, poultry, fish, and egg items have increased the least. That being said, the red line shows large non-cyclic variability, meaning that meat and other protein prices are the most volatile. While no grocery category has been spared from major inflation since the 1960s, the foods that require the least industrial processing and are a major sector of a heathly diet, fruits and vegetables, have consistently gotten relatively more expensive than the ones that require the most.
-:::
+When decomposing grocery prices further into categories, the ones that are cheaper may not be the healthiest. The chart below shows how the prices of different grocery items have changed relative to those in 1967. While all items became more expensive at about the same rate until 1975, nonalcoholic beverage items became significantly more expensive from then until about the 1990s. Since then, it is clear to see that fruits and vegetables are the most expensive food category relative to other categories' prices. Since this data is not seasonally adjusted, the fruits and vegetables series shows the most cyclic variation, which is expected due to the different growing seasons of fresh food. Interestingly, the prices for meat, poultry, fish, and egg items have increased the least. That being said, the red line shows large non-cyclic variability, meaning that meat and other protein prices are the most volatile. 
 
 ::: {.chart-wrap}
 <iframe src="charts/grocery_categories.html" width=1010 height=620 style="border:none"></iframe>
 [Source: FRED CUUR0000SAF111, CUUR0000SAF112, CUUR0000SAF113, CUUR0000SAF114 Series, Consumer Price Index reindexed to Jan 1967=100.]{.caption}
 :::
 
+While no grocery category has been spared from major inflation since the 1960s, the foods that require the least industrial processing and are a major sector of a heathly diet, fruits and vegetables, have consistently gotten relatively more expensive than the ones that require the most.
+
 ::: {.chart-wrap}
-![](img/intro.png)
-[Source: National Council on Aging (ncoa.org)]{.caption}
+![](img/snap.jpg)
+[Source: Getty Images]{.caption}
 :::
 
-::: {.prose}
 ## Affordable for Who?
 
 While everyone has to eat, many Americans cannot afford to. In fact, 47.9 million people lived in food-insecure households in 2024, meaning that they lived in households that unable or uncertain about having enough food for all their members at times during the year, due to insufficient money or other resources [https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics]. Thus, it is important to consider food affordability and how it affects people of different income levels. 
 
 The aggregate price trends above describe the environment all Americans share. A 25% spike in grocery prices is an inconvenience for a household spending 7% of its income on food. For a household spending 30%, it's a crisis.
 
-The chart below shows the percentage of income before taxes that was spent on groceries (food at home) compared across 40 years, between 1984 and 2024, as well as 3 different income levels, using data from the Bureau of Labor Statistics Consumer Expenditure Survey via FRED. The usage of income before taxes is due to availability of data, since it is the most consistently reported figure across income quintiles. That being said, it can slightly understate the food spend percentage for lower-income households because the pre-tax income is higher than what they actually have to spend, though in other cases it can undercounts their actual resources for food due to SNAP benefits, earned income tax credits, etc. That being said, the disparity is clear: households in the bottom 20% based on average annual pre-tax income spent about over a third of it on groceries in 1984, and that percentage only decreased to about a quarter in 2024. On the other hand, households in the 41st to 60th percentile (middle 20%) spent about 11% of their pre-tax income on food in 1984, and about 8% in 2024. The top 20% of households are much less affected my food expenditure, only spending 5% in 1984 and 3.5% in 2024. 
-
-https://www.bls.gov/news.release/cesan.nr0.htm
-Components of Income Before Taxes. Income before taxes in the CE includes the following components: Wages and salaries; self-employment income; Social Security; private and government retirement; interest and dividends; rental and other property income; unemployment, workers' compensation, and veterans' benefits; public assistance, supplemental security income, and food stamps; regular contributions for support; and other income. Not included in these estimates are government subsidies for businesses, as these are out of scope for the CE.
-:::
+The chart below shows the percentage of income before taxes that was spent on groceries (food at home) compared across 40 years, between 1984 and 2024, as well as 3 different income levels, using data from the Bureau of Labor Statistics Consumer Expenditure Survey via FRED. The usage of income before taxes is due to availability of data, since it is the most consistently reported figure across income quintiles. That being said, it can slightly understate the food spend percentage for lower-income households because the pre-tax income is higher than what they actually have to spend. According to the consumer expenditure survey, the income before taxes value includes SNAP benefits, Social Security, unemployment compensation, and other transfer income, so the denominator reflects total resources available to the household, not just earned wages [https://www.bls.gov/news.release/cesan.nr0.htm]. This makes the percentage a genuine measure of food's claim on all available resources. The limitation is that income before taxes does not account for taxes paid, meaning it slightly overstates available resources for households that pay significant taxes, which is primarily the middle and upper quintiles rather than the bottom. That being said, the disparity is clear: households in the bottom 20% based on average annual pre-tax income spent about over a third of it on groceries in 1984, and that percentage only decreased to about a quarter in 2024. On the other hand, households in the 41st to 60th percentile (middle 20%) spent about 11% of their pre-tax income on food in 1984, and about 8% in 2024. The top 20% of households are much less affected my food expenditure, only spending 5% in 1984 and 3.5% in 2024. 
 
 ::: {.chart-wrap}
 <iframe src="charts/bar_grocery_income.html" width=1010 height=620 style="border:none"></iframe>
 [Source: FRED CXUFOODHOMELB0102M, CXUFOODHOMELB0104M, CXUFOODHOMELB0106M, CXUINCBEFTXLB0102M, CXUINCBEFTXLB0104M, CXUINCBEFTXLB0106M Series, Food at Home Expenditures and Income Before Taxes by Quintiles of Income Before Taxes.]{.caption}
 :::
 
-::: {.prose}
 Despite drops in food spending percentage for all three, the burden gap between income groups has persisted. Thus, the increased grocery prices can affect low-income households' abilities to obtain enough nourishing food more than middle- and high-income households. 
 
 The line chart below provides a more nuanced view of the result above. The bottom income quintile has consistently devoted a far larger and more volatile share of income to groceries than middle- or upper-income households, and that gap has not meaningfully closed over 40 years.
-:::
 
 ::: {.chart-wrap}
 <iframe src="charts/line_grocery_income.html" width=1010 height=620 style="border:none"></iframe>
 [Source: FRED CXUFOODHOMELB0101M, CXUFOODHOMELB0102M, CXUFOODHOMELB0104M, CXUFOODHOMELB0106M, CXUINCBEFTXLB0101M, CXUINCBEFTXLB0102M, CXUINCBEFTXLB0104M, CXUINCBEFTXLB0106M Series, Food at Home Expenditures and Income Before Taxes by Quintiles of Income Before Taxes.]{.caption}
 :::
 
-::: {.prose}
 While income differences are significant, the same national price trends can play out very differently across states as well. In high-income, food represents a manageable fraction of what residents earn. In lower-income states, that fraction is higher and far more vulnerable to price shocks.
 
 The map below, states are colored by per capita food sales as a share of per capita personal income by state, from 1997 to 2024, when state-level food sales data is available. Higher values and lighter colors indicate greater food burden, or more personal income spent on food. In this case, food sales refer to all food, both food at home and away from home. The slider at the bottom allows exploration of state food burden over time. 
-:::
 
 ::: {.chart-wrap}
 <iframe src="charts/map_food_sales_income.html" width=1010 height=620 style="border:none"></iframe>
 [Source: USDA, ERS Food Expenditure Survey, total annual per capita food sales by state, as a percent of annual per capita personal income by state in U.S. dollars, via FRED.]{.caption}
 :::
 
-::: {.prose}
 Across the entire timeline, Nevada has consistently the highest values of food burden, with all values between 12 and 15 percent (except for 2020, when food sales dropped due to the pandemic, especially food away from home). More recently, states in the American South and Hawaii also show slighter higher percentages, while states like New York, Connecticut and New Jersey have consistently lower burden, with between 6% and 8% of per capita personal income spent on food. 
-::: 
 
 ::: {.chart-wrap}
-![](img/intro.png)
+![](img/coins.png)
 [Source: National Council on Aging (ncoa.org)]{.caption}
 :::
 
-::: {.prose}
 ## Conclusions and Looking Forward 
 
 Overall, these results will affect everyone's budgets and decisions on what to eat. America's food industry has delivered affordability gains over the past six decades, since food represents a smaller share of total spending than at any point recent history, and overall food prices tracked below or with general inflation for most of the 1980s through 2010s. But this project has shown that these aggregates conceal more than they reveal. 
@@ -169,18 +149,15 @@ First, eating out has become increasingly more expensive than buying groceries a
 
 ### Policy Recommendations
 
-**Resist aggregate measures in food cost and policy assessment.** 
+***Resist aggregate measures in food cost and policy assessment.*** 
 
 The national average food expenditure share is a very commonly cited metric of food affordability. This project demonstrates that it is also a misleading one. Policy assessments and discussions of food affordability should be sure to disaggregate by income quintile, since the average experience describes the top half of the income distribution far better than the bottom.
 
-**Title**
+***Expand nutrition assistance programs to reflect how Americans actually eat.*** 
 
-The Supplemental Nutrition Assistance Program (SNAP) is one of the most important assistance programs for food insecurity in the U.S. In 2024, an average of 41.5 million people per month received SNAP benefits [https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap]. 
+The Supplemental Nutrition Assistance Program (SNAP) is one of the most important assistance programs for food insecurity in the U.S. In 2024, an average of 41.5 million people per month received SNAP benefits [https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap]. SNAP benefits are currently restricted almost entirely to grocery purchases, food intended to be prepared at home. Yet this project shows that food away from home now accounts for the majority of American food spending, having grown from 42% of total food sales in 1997 to over 54% by 2024, even as restaurant prices have consistently outpaced grocery inflation. For low-income households, who already devote a disproportionate share of income to food, the inability to use nutrition assistance at affordable prepared food outlets like certain fast food restaurants creates a mismatch between how the benefit works and how food purchasing actually functions in modern American life. Several states have specific SNAP Restaurant Meals Programs allowing elderly, homeless, and disabled SNAP recipients to use benefits at participating restaurants, but this is not universal nor easily accessed [https://www.fns.usda.gov/snap/retailer/restaurant-meals-program]. Expanding this model more broadly, particularly in food desert geographies where grocery access is limited, would align policy with the realities documented in this data.
 
-https://www.fns.usda.gov/research/cnpp/usda-food-plans/cost-food-monthly-reports
-To account for changes in food prices, the costs of the Thrifty Food Plan, 2021 Market Baskets for each age-sex group are updated monthly by using the Consumer Price Indexes (CPIs). Each Market Basket Category of the Thrifty Food Plan, 2021 is matched to one or more CPIs (e.g., the Market Basket Category “eggs” is matched to the CPI for eggs and the Market Basket Category “dark-green vegetables” is matched to CPIs for fresh vegetables, frozen vegetables, and canned vegetables). The costs of Market Basket Categories matched to one CPI are adjusted based on the percentage change in the matched CPI compared to June 2021. The costs of Market Basket Categories matched to more than one CPI are adjusted based on a weighted average of the percentage changes in the matched CPIs compared to June 2021, with weights based on expenditure patterns as outlined in BLS’ relative importance of CPI components for 2017–18 (the most current at the time of the 2021 update). After the CPI adjustments are applied to each Market Basket Category, the updated costs of the Market Basket Categories are summed to determine the new monthly total cost of the Thrifty Food Plan, 2021 Market Basket for each age-sex group.
-
-**Target food access research and investment toward high-burden states.** 
+***Target food access research and investment toward high-burden states.*** 
 
 This project's state-level analysis shows geographic inequality in food burden. States with consistently high food burden ratios, like in the South or in states with large tourism economies like Nevada, should be the focus of further food burden and access research. Based on these results, federal investment in food access infrastructure can be targeted where it is most necessary.
 
@@ -190,7 +167,7 @@ This analysis has several important constraints that should inform how findings 
 
 The Consumer Expenditure Survey quintile data begins in 1984, limiting the inequality analysis to a 40-year window rather than the full six decades examined in the introduction. The pre-1984 period cannot be disaggregated by income group with the same methodology.
 
-Income before taxes is used as the denominator in the food burden ratio. Like mentioned before, it slightly overstates available resources for lower-income households who pay taxes, and slightly understates them for households receiving refundable tax credits or benefits like SNAP. The true food burden for the bottom quintile may differ slightly from the figures shown.
+Income before taxes is used as the denominator in the food burden ratio. Like mentioned before, it slightly overstates available resources for households who pay taxes, but it does include benefits like Social Security and SNAP. Because of this, a more "true" food burden based on actual disposable income may differ slightly from the figures shown, especially for higher quintiles. Disposable income data per quintile over time was not easily accessible within the scope and timeline of this project. 
 
 The state-level analysis uses per capita food sales divided by per capita personal income, which captures the average experience within a state but cannot distinguish high-burden households within otherwise affluent states. A state like 
 New York or Connecticut may have a low average food burden while still containing significant pockets of food insecurity.
@@ -201,15 +178,15 @@ The outlet sales data from USDA ERS begins in 1997, limiting the historical scop
 
 Several dimensions of food affordability are beyond the current scope and timeline of this project but represent important directions for further investigation.
 
-**Nutritional cost analysis.** 
+***Nutritional cost analysis.***
 
 This project shows that certain foods have inflated faster in price terms, but does not quantify the cost per nutrient or per calorie, or if different income groups purchase different types of food. It would be interesting to develop an inequality-focused analysis on nutrition affordability as a continuation of this work. 
 
-**The role of SNAP in closing the burden gap.** 
+***The role of SNAP in closing the burden gap.***
 
 The inequality analysis uses pre-tax income and does not dive into the effects of SNAP benefits on the food burden ratio for the bottom quintile. A follow-on analysis incorporating SNAP participation and benefit levels would show whether the program has meaningfully offset the persistent high burden of the lowest income group. 
 
-**Sub-state geographic granularity.** 
+***Sub-state geographic granularity.***
 
 The choropleth map shows state-level patterns but cannot capture county or census-tract level variation. Combining 
 the USDA Food Access Research Atlas with county-level income and or demographic data would reveal whether the high-burden states identified here have concentrated food affordability crises in specific regions or whether they are distributed broadly across the state or other demographic characteristics.

@@ -44,6 +44,13 @@ CUUR0000SEFV.csv
 - units: Index 1982-1984=100
 - Not Seasonally Adjusted
 
+## Census
+
+saipe_state_median_income.csv
+- Median Household Income per State
+- Annual
+- 1997-2024
+
 ## Quintiles 
 
 CXUFOODHOMELB0101M.csv
@@ -104,6 +111,16 @@ CXUINCBEFTXLB0106M.csv
 - units: U.S. Dollars
 - Not Seasonally Adjusted
 
+
+## States
+
+**PCPI.csv 
+- Per Capita Personal Income by State, as given by the state abbreviation at the beginning of the file name. 
+- Annual 
+- Variable Starting Year Based on State - 2025
+- unit: U.S. Dollars 
+- Not Seasonally Adjusted 
+
 ## Total 
 
 CPIAUCSL.csv
@@ -156,21 +173,5 @@ state_sales_per_capita_no_taxes_tips.csv
 - State food sales per capita (person), without taxes and tips, for all purchasers
 - Annual
 - 1997-2024
-- unit: U.S. Dollars 
-- Not Seasonally Adjusted 
-
-## Census
-
-saipe_state_median_income.csv
-- Median Household Income per State
-- Annual
-- 1997-2024
-
-## States
-
-**PCPI.csv 
-- Per Capita Personal Income by State, as given by the state abbreviation at the beginning of the file name. 
-- Annual 
-- Variable Starting Year Based on State - 2025
 - unit: U.S. Dollars 
 - Not Seasonally Adjusted 

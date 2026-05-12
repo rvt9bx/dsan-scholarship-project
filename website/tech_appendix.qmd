@@ -16,17 +16,21 @@ Link to GitHub Repo: [https://github.com/rvt9bx/dsan-scholarship-project](https:
 
 ## Data Collection
 
-Data was downloaded mainly from the Federal Reserve Board of St. Louis 
+Data was downloaded mainly from the Federal Reserve Board of St. Louis, using series from the U.S. Bureau of Economic Analysis and the U.S. Bureau of Labor Statistics. All FRED data can be downloaded from [https://fred.stlouisfed.org/](https://fred.stlouisfed.org/) by searching up the given Series ID, an identifier of alphanumeric characters as given in the _data_dictionary.md_ file. 
+
+Additional data was downloaded from the United States Department of Agriculture Economic Research Service, namely from their Food Expenditure Series [https://www.ers.usda.gov/data-products/food-expenditure-series](https://www.ers.usda.gov/data-products/food-expenditure-series). The datasets used in this research are 'Monthly sales of food, with taxes and tips, for all purchasers, by outlet type' and 'State food sales per capita, without taxes and tips, for all purchasers.' 'State food sales, without taxes and tips, for all purchasers' was downloaded for reference but was not used in the visualizations or statistics. 
+
+_scripts/census_data_collection.ipynb_ contains code that scrapes median household income per state over time from the U.S. Census Small Area Income and Poverty Estimates (SAIPE) Program [https://www.census.gov/programs-surveys/saipe.html](https://www.census.gov/programs-surveys/saipe.html), but since this household-level measure did not match the per capita measure of food sales, it was unused. 
+
+Further information on all data sources collected can be found in _data_dictionary.md_ within the data folder of the repository. 
 
 ## Data Cleaning
 
-Data cleaning included selecting the given dates of data to focus on, selecting and renaming columns for ease of use, converting string numeric values into floats, converting raw values to percentages, and pivoting the data into long format (as opposed to wide) when necessary for visualization. All cleaning was done in the `viz.ipynb` file 
+Data cleaning included selecting the given dates of data to focus on, selecting and renaming columns for ease of use, converting string numeric values into floats, converting raw values to percentages, and pivoting the data into long format (as opposed to wide) when necessary for visualization. All cleaning was done in the _viz.ipynb_ file using the data and methods necessary for each unique plot.
 
 ## Visualizations
 
 Visualizations were coded using Plotly Graph Objects, as well as Plotly Express for the animated charts. 
-The code for them can be found in `viz.ipynb` file. They are exported as html files for interactivity and then embedded into the website page. 
-
-## Website
+The code for them can be found in _viz.ipynb_ file. They are exported as html files for interactivity and then embedded into the website page. 
 
 :::

@@ -25,7 +25,7 @@ main.content { padding: 0; margin: 0; }
 
 /* ─── hero ─── */
 .hero {
-  padding: 8rem 2rem 5rem;
+  padding: 8rem 2rem 0rem;
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -36,7 +36,7 @@ main.content { padding: 0; margin: 0; }
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #67a384;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0rem;
   display: block;
 }
 
@@ -82,7 +82,7 @@ main.content { padding: 0; margin: 0; }
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   font-weight: 700;
-  margin: 5rem 0 1rem;
+  margin: 2rem 0 1rem;
   color: #f5f0e8;
   border-bottom: 1px solid #d8d2c6;
 }
@@ -90,7 +90,6 @@ main.content { padding: 0; margin: 0; }
 /* ─── static viz captions ─── */
 .chart-wrap {
   max-width: 1050px;
-  margin: 0rem auto;
   padding: 0 0rem;
 }
 
@@ -98,6 +97,7 @@ main.content { padding: 0; margin: 0; }
   width: 100%;
   height: auto;
   display: block;
+  margin: 5rem 0 1rem;
 }
 
 .caption {
