@@ -11,7 +11,7 @@ Most AI assistance in this project was provided by Claude Sonnet 4.6 (Anthropic)
 |---|---|
 | 1 | Project idea refinement and brainstorming | 
 | 2 | Quarto style customization |
-| 3 | Code error debugging |
+| 3 | Code syntax help and error debugging |
 | 4 | BibTex resources formatting |
 
 :::

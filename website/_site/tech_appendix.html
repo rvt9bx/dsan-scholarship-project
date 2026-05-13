@@ -40,9 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-5cf1173a6ef18dcf2455543032f0e545.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
-<script src="site_libs/quarto-contrib/intersection-observer-polyfill-1.0.0/intersection-observer.js"></script>
-<script src="site_libs/quarto-contrib/scrollama-3.2.0/scrollama.min.js"></script>
-<script src="site_libs/quarto-contrib/closeread-0.1.0/closeread.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,14 +71,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
-<meta cr-debug-mode="false">
-<meta cr-remove-header-space="false">
 
 
-<link rel="stylesheet" href="site_libs/quarto-contrib/quarto-project/qmd-lab/closeread/closeread.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -122,12 +116,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -136,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -159,15 +153,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="data-collection" class="level2">
 <h2 class="anchored" data-anchor-id="data-collection">Data Collection</h2>
-<p>Data was downloaded mainly from the Federal Reserve Board of St.&nbsp;Louis</p>
+<p>Data was downloaded mainly from the Federal Reserve Board of St.&nbsp;Louis, using series from the U.S. Bureau of Economic Analysis and the U.S. Bureau of Labor Statistics. All FRED data can be downloaded from <a href="https://fred.stlouisfed.org/">https://fred.stlouisfed.org/</a> by searching up the given Series ID, an identifier of alphanumeric characters as given in the <em>data_dictionary.md</em> file.</p>
+<p>Additional data was downloaded from the United States Department of Agriculture Economic Research Service, namely from their Food Expenditure Series <a href="https://www.ers.usda.gov/data-products/food-expenditure-series">https://www.ers.usda.gov/data-products/food-expenditure-series</a>. The datasets used in this research are ‘Monthly sales of food, with taxes and tips, for all purchasers, by outlet type’ and ‘State food sales per capita, without taxes and tips, for all purchasers.’ ‘State food sales, without taxes and tips, for all purchasers’ was downloaded for reference but was not used in the visualizations or statistics.</p>
+<p><em>scripts/census_data_collection.ipynb</em> contains code that scrapes median household income per state over time from the U.S. Census Small Area Income and Poverty Estimates (SAIPE) Program <a href="https://www.census.gov/programs-surveys/saipe.html">https://www.census.gov/programs-surveys/saipe.html</a>, but since this household-level measure did not match the per capita measure of food sales, it was unused.</p>
+<p>Further information on all data sources collected can be found in <em>data_dictionary.md</em> within the data folder of the repository.</p>
 </section>
 <section id="data-cleaning" class="level2">
 <h2 class="anchored" data-anchor-id="data-cleaning">Data Cleaning</h2>
-<p>Data cleaning included selecting the given dates of data to focus on, selecting and renaming columns for ease of use, converting string numeric values into floats, converting raw values to percentages, and pivoting the data into long format (as opposed to wide) when necessary for visualization. All cleaning was done in the <code>viz.ipynb</code> file using the data and methods necessary for each unique plot.</p>
+<p>Data cleaning included selecting the given dates of data to focus on, selecting and renaming columns for ease of use, converting string numeric values into floats, converting raw values to percentages, and pivoting the data into long format (as opposed to wide) when necessary for visualization. All cleaning was done in the <em>viz.ipynb</em> file using the data and methods necessary for each unique plot.</p>
 </section>
 <section id="visualizations" class="level2">
 <h2 class="anchored" data-anchor-id="visualizations">Visualizations</h2>
-<p>Visualizations were coded using Plotly Graph Objects, as well as Plotly Express for the animated charts. The code for them can be found in <code>viz.ipynb</code> file. They are exported as html files for interactivity and then embedded into the website page.</p>
+<p>Visualizations were coded using Plotly Graph Objects, as well as Plotly Express for the animated charts. The code for them can be found in <em>viz.ipynb</em> file. They are exported as html files for interactivity and then embedded into the website page.</p>
 </section>
 </div>
 

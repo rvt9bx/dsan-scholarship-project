@@ -1,45 +1,245 @@
 
-# data 
-# https://www.ers.usda.gov/data-products/food-expenditure-series
-# https://fred.stlouisfed.org/
-# https://www.census.gov/programs-surveys/saipe.html
+% ============================================================
+% DATA SOURCES
+% ============================================================
 
-# https://www.ers.usda.gov/amber-waves/2020/november/average-share-of-income-spent-on-food-in-the-united-states-remained-relatively-steady-from-2000-to-2019
+@misc{usda_ers_fes,
+  author       = {{U.S. Department of Agriculture, Economic Research Service}},
+  title        = {Food Expenditure Series},
+  year         = {2025},
+  url          = {https://www.ers.usda.gov/data-products/food-expenditure-series},
+  note         = {Accessed May 2025}
+}
 
-# https://www.epi.org/blog/rising-inequality-is-the-root-of-affordability-problems/
+@misc{fred,
+  author       = {{Federal Reserve Bank of St. Louis}},
+  title        = {Federal Reserve Economic Data ({FRED})},
+  year         = {2025},
+  url          = {https://fred.stlouisfed.org},
+  note         = {Series used: CPIAUCSL, CPIUFDSL, DFXARC1M027SBEA, PCE,
+                  CUUR0000SAF11, CUUR0000SEFV, CUUR0000SAF111, CUUR0000SAF112,
+                  CUUR0000SAF113, CUUR0000SAF114, CXUFOODHOMELB0101M,
+                  CXUFOODHOMELB0102M, CXUFOODHOMELB0104M, CXUFOODHOMELB0106M,
+                  CXUINCBEFTXLB0101M, CXUINCBEFTXLB0102M, CXUINCBEFTXLB0104M,
+                  CXUINCBEFTXLB0106M, per state PCPI. Accessed May 2025}
+}
 
-# Cafer A, Mann G, Ramachandran S, Kaiser M. National Food Affordability: A County-Level Analysis. Prev Chronic Dis. 2018 Sep 20;15:E115. doi: 10.5888/pcd15.180079. PMID: 30240570; PMCID: PMC6157262.
+@misc{census_saipe,
+  author       = {{U.S. Census Bureau}},
+  title        = {Small Area Income and Poverty Estimates ({SAIPE}) Program},
+  year         = {2024},
+  url          = {https://www.census.gov/programs-surveys/saipe.html},
+  note         = {State-level median household income estimates, 1997--2024.
+                  Accessed May 2025}
+}
 
-# https://libertystreeteconomics.newyorkfed.org/2024/07/what-was-up-with-grocery-prices/
+% ============================================================
+% RESEARCH ARTICLES
+% ============================================================
 
-# https://www.cbpp.org/research/food-assistance/the-supplemental-nutrition-assistance-program-snap
+@article{usda_ers_food_share_2020,
+  author       = {Saksena, Monica J. and Okrent, Abigail M. and Anekwe, Tobenna D.
+                  and Cho, Clare and Dicken, Christopher and Effland, Anne
+                  and Elitzak, Howard and Guthrie, Joanne and Hamrick, Karen S.
+                  and Hyman, Jeffrey and Jo, Young and Lin, Biing-Hwan
+                  and McLaughlin, Patrick W. and Rahkovsky, Ilya
+                  and Ralston, Katherine and Smith, Travis A. and Stewart, Hayden
+                  and Todd, Jessica and Tuttle, Chrystol},
+  title        = {Average Share of Income Spent on Food in the {United States}
+                  Remained Relatively Steady From 2000 to 2019},
+  journal      = {Amber Waves},
+  year         = {2020},
+  month        = nov,
+  publisher    = {U.S. Department of Agriculture, Economic Research Service},
+  url          = {https://www.ers.usda.gov/amber-waves/2020/november/average-share-of-income-spent-on-food-in-the-united-states-remained-relatively-steady-from-2000-to-2019}
+}
 
-# https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research
+@misc{bivens_epi_inequality_2026,
+  author       = {Bivens, Josh and Wething, Hilary and Zipperer, Ben},
+  title        = {Rising Inequality Is the Root of Affordability Problems},
+  year         = {2026},
+  month        = apr,
+  publisher    = {Economic Policy Institute},
+  url          = {https://www.epi.org/blog/rising-inequality-is-the-root-of-affordability-problems}
+}
 
-# https://pmc.ncbi.nlm.nih.gov/articles/PMC8910477/
+@article{cafer_food_affordability_2018,
+  author       = {Cafer, Anne and Mann, Gina and Ramachandran, Shrinidhi and Kaiser, Mark},
+  title        = {National Food Affordability: {A} County-Level Analysis},
+  journal      = {Preventing Chronic Disease},
+  volume       = {15},
+  year         = {2018},
+  month        = sep,
+  pages        = {E115},
+  doi          = {10.5888/pcd15.180079},
+  pmid         = {30240570},
+  pmcid        = {PMC6157262},
+  url          = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6157262}
+}
 
+@misc{nyfed_grocery_prices_2024,
+  author       = {{Federal Reserve Bank of New York}},
+  title        = {What Was Up with Grocery Prices?},
+  year         = {2024},
+  month        = jul,
+  publisher    = {Liberty Street Economics},
+  url          = {https://libertystreeteconomics.newyorkfed.org/2024/07/what-was-up-with-grocery-prices}
+}
 
-# images 
-# https://www.ncoa.org/article/how-much-have-food-prices-gone-up-and-how-can-i-save/
-# https://food.ubc.ca/9-tips-to-save-money-on-groceries/
-# https://publichealth.jhu.edu/2025/what-is-snap-and-why-does-it-matter
+@misc{cbpp_snap_2024,
+  author       = {{Center on Budget and Policy Priorities}},
+  title        = {The Supplemental Nutrition Assistance Program ({SNAP})},
+  year         = {2024},
+  month        = nov,
+  url          = {https://www.cbpp.org/research/food-assistance/the-supplemental-nutrition-assistance-program-snap},
+  note         = {Accessed May 2025}
+}
 
-# https://www.ers.usda.gov/topics/food-markets-prices/retailing-wholesaling/retail-trends
+@article{stewart_fruit_veg_2022,
+  author       = {Stewart, Hayden},
+  title        = {{U.S.} Fruit and Vegetable Affordability on the {Thrifty Food Plan} Depends on Purchasing Power and Safety Net Supports},
+  journal      = {International Journal of Environmental Research and Public Health},
+  volume       = {19},
+  number       = {5},
+  pages        = {2772},
+  year         = {2022},
+  month        = feb,
+  doi          = {10.3390/ijerph19052772},
+  pmid         = {35270476},
+  pmcid        = {PMC8910477},
+  url          = {https://pmc.ncbi.nlm.nih.gov/articles/PMC8910477}
+}
 
-# https://data.census.gov/table/CBP2023.CB2300CBP?g=010XX00US&codeset=naics~72251
+% ============================================================
+% GOVERNMENT PROGRAM DATA & STATISTICS
+% ============================================================
 
-# https://www.usa.gov/food-help
+@misc{usda_ers_snap_stats,
+  author       = {{U.S. Department of Agriculture, Economic Research Service}},
+  title        = {Supplemental Nutrition Assistance Program ({SNAP}):
+                  Key Statistics and Research},
+  year         = {2025},
+  url          = {https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research},
+  note         = {Accessed May 2025}
+}
 
-# https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics
+@misc{usda_ers_food_security,
+  author       = {{U.S. Department of Agriculture, Economic Research Service}},
+  title        = {Food Security in the {U.S.}: Key Statistics and Graphics},
+  year         = {2025},
+  url          = {https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics},
+  note         = {Accessed May 2025}
+}
 
-# https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap
+@misc{fns_snap_data,
+  author       = {{U.S. Department of Agriculture, Food and Nutrition Service}},
+  title        = {Supplemental Nutrition Assistance Program ({SNAP}) Participation
+                  and Costs},
+  year         = {2025},
+  url          = {https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap},
+  note         = {Accessed May 2025}
+}
 
-# https://frac.org/wp-content/uploads/Thrifty-Food-Plan-Adjustment-One-Pager.pdf
+@misc{fns_restaurant_meals_program,
+  author       = {{U.S. Department of Agriculture, Food and Nutrition Service}},
+  title        = {{SNAP} Restaurant Meals Program},
+  year         = {2025},
+  url          = {https://www.fns.usda.gov/snap/retailer/restaurant-meals-program},
+  note         = {Accessed May 2025}
+}
 
-https://grocerygapatlas.rafiusa.org/map
+@misc{fns_thrifty_food_plan,
+  author       = {{U.S. Department of Agriculture, Food and Nutrition Service}},
+  title        = {{USDA} Food Plans: Cost of Food Monthly Reports},
+  year         = {2025},
+  url          = {https://www.fns.usda.gov/research/cnpp/usda-food-plans/cost-food-monthly-reports},
+  note         = {Accessed May 2025}
+}
 
-https://www.fns.usda.gov/research/cnpp/usda-food-plans
+@misc{fns_usda_food_plans,
+  author       = {{U.S. Department of Agriculture, Food and Nutrition Service}},
+  title        = {{USDA} Food Plans},
+  year         = {2025},
+  url          = {https://www.fns.usda.gov/research/cnpp/usda-food-plans},
+  note         = {Accessed May 2025}
+}
 
-https://www.fns.usda.gov/research/cnpp/usda-food-plans/cost-food-monthly-reports
+@misc{usda_ers_retail_trends,
+  author       = {{U.S. Department of Agriculture, Economic Research Service}},
+  title        = {Retail Trends},
+  year         = {2024},
+  url          = {https://www.ers.usda.gov/topics/food-markets-prices/retailing-wholesaling/retail-trends},
+  note         = {Accessed May 2025}
+}
 
-https://www.bls.gov/news.release/cesan.nr0.htm
+@misc{usa_gov_food_help,
+  author       = {{USA.gov}},
+  title        = {Food Help},
+  year         = {2025},
+  url          = {https://www.usa.gov/food-help},
+  note         = {Accessed May 2025}
+}
+
+@misc{bls_ce_income,
+  author       = {{U.S. Bureau of Labor Statistics}},
+  title        = {Consumer Expenditures---Annual News Release},
+  year         = {2024},
+  url          = {https://www.bls.gov/news.release/cesan.nr0.htm},
+  note         = {Documents components of income before taxes in the Consumer Expenditure Survey. Accessed May 2025}
+}
+
+@misc{cbp_restaurants,
+  author       = {{U.S. Census Bureau}},
+  title        = {County Business Patterns: 2023},
+  year         = {2023},
+  url          = {https://www.census.gov/programs-surveys/cbp.html},
+  note         = {Full-service restaurants (NAICS 72251). Full Table URL: https://data.census.gov/table/CBP2023.CB2300CBP?g=010XX00US&codeset=naics~72251. Accessed May 2025}
+}
+
+% ============================================================
+% OTHER SOURCES
+% ============================================================
+
+@misc{rafi_grocery_gap_atlas,
+  author       = {{Rural Advancement Foundation International USA}},
+  title        = {Grocery Gap Atlas},
+  year         = {2024},
+  url          = {https://grocerygapatlas.rafiusa.org/map},
+  note         = {Accessed May 2025}
+}
+
+@misc{frac_thrifty_food_plan,
+  author       = {{Food Research \& Action Center}},
+  title        = {Thrifty Food Plan Adjustment},
+  year         = {2021},
+  url          = {https://frac.org/wp-content/uploads/Thrifty-Food-Plan-Adjustment-One-Pager.pdf},
+  note         = {Accessed May 2025}
+}
+
+% ============================================================
+% IMAGES
+% ============================================================
+
+@misc{img_ncoa,
+  author       = {{National Council on Aging}},
+  title        = {How Much Have Food Prices Gone Up and How Can {I} Save?},
+  year         = {2024},
+  url          = {https://www.ncoa.org/article/how-much-have-food-prices-gone-up-and-how-can-i-save},
+  note         = {Image source. Accessed May 2025}
+}
+
+@misc{img_ubc_groceries,
+  author       = {{University of British Columbia Food Services}},
+  title        = {9 Tips to Save Money on Groceries},
+  year         = {2023},
+  url          = {https://food.ubc.ca/9-tips-to-save-money-on-groceries},
+  note         = {Image source. Accessed May 2025}
+}
+
+@misc{img_jhu_snap,
+  author       = {{Johns Hopkins Bloomberg School of Public Health}},
+  title        = {What Is {SNAP} and Why Does It Matter?},
+  year         = {2025},
+  url          = {https://publichealth.jhu.edu/2025/what-is-snap-and-why-does-it-matter},
+  note         = {Image source. Accessed May 2025}
+}
